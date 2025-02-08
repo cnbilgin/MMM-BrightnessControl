@@ -1,0 +1,34 @@
+{
+  "name": "mmm-brightnesscontrol",
+  "version": "0.1.0",
+  "description": "HomeAssistant module to control monitors brightness via I2C.",
+  "main": "MMM-BrightnessControl.js",
+  "scripts": {
+    "dev": "rollup -c --sourcemap=inline --watch"
+  },
+  "author": "cnbilgin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnbilgin/MMM-BrightnessControl.git"
+  },
+  "keywords": [
+    "MagicMirror",
+    "MMM",
+    "Brightness Control",
+    "Notification",
+    "ddcutil"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cnbilgin/MMM-HomeAssistant-Rotary/issues"
+  },
+  "homepage": "https://github.com/cnbilgin/MMM-HomeAssistant-Rotary#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "rollup": "^4.30.1",
+    "typescript": "^5.7.3",
+    "@types/magicmirror-module": "^2.16.5"
+  }
+}
