@@ -6,8 +6,5 @@
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
         "skipLibCheck": true,
-        "types": [
-            "magicmirror-module",
-        ]
     }
 }

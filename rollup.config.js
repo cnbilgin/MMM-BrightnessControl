@@ -7,7 +7,8 @@ export default [
     input: "./src/module/Module.ts",
     plugins: [
       typescript({
-        exclude: ["src/node/**/**"]
+        exclude: ["src/node/**/**"],
+        types: ["magicmirror-module"]
       }),
       nodeResolve()
     ],
