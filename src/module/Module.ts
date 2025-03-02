@@ -12,7 +12,6 @@ Module.register("MMM-BrightnessControl", {
   },
 
   notificationReceived(notification, payload) {
-    console.log("NOTFIY", notification);
     switch (notification) {
       case "BrightnessControl_REDUCE":
         this.sendSocketNotification("REDUCE", null);

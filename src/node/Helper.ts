@@ -4,8 +4,6 @@ import { Brightness } from "./Brightness";
 export default NodeHelper.create({
   brightness: null,
   start() {
-    console.log("MMM-BrightnessControl - Node Helper started");
-
     this.brightness = new Brightness();
   },
 
