@@ -1,7 +1,7 @@
 Module.register("MMM-BrightnessControl", {
   getDom() {
     const dom = document.createElement("div");
-    dom.innerText = "Hello World";
+    dom.innerText = "";
 
     return dom;
   },

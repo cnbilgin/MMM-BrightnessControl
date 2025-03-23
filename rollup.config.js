@@ -1,6 +1,7 @@
-import nodeResolve from "@rollup/plugin-node-resolve";
 import pkg from "./package.json" with { type: "json" };
 import typescript from "@rollup/plugin-typescript";
+import commonjs from "@rollup/plugin-commonjs";
+import nodeResolve from "@rollup/plugin-node-resolve";
 
 export default [
   {
@@ -24,7 +25,8 @@ export default [
         exclude: ["src/module/**/**"],
         types: ["magicmirror-module", "node"]
       }),
-      nodeResolve()
+      nodeResolve(),
+      commonjs()
     ],
     external: ["node_helper", "child_process"],
     output: {

@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/cnbilgin/MMM-HomeAssistant-Rotary#readme",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
     "@rollup/plugin-node-resolve": "^16.0.0",
     "@rollup/plugin-typescript": "^12.1.2",
     "@types/magicmirror-module": "^2.16.5",
